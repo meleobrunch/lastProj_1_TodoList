@@ -1,0 +1,93 @@
+input[type="checkbox"] {
+    height: 40px;
+    width: 40px;
+}
+
+button {
+    height: 100px;
+    width: 200px;
+    border-radius: 40px;
+}
+
+input[type="text"] {
+    width: 2500px;
+}
+
+textarea {
+    height: 500px;
+    width: 2000px;
+    border-radius: 40px;
+    margin: 20px;
+}
+
+
+/*최상위*/
+#todoList {
+    background-color: #AED581;
+    width: 5000px;
+    height: 3000px;
+    border-radius: 40px;
+}
+
+/*상위*/
+
+#list {
+    background-color: #F1F8E9;
+    border-radius: 40px;
+    border-color: #4CAF50;
+    border-style: solid;
+    border-width: 20px;
+
+    margin: 200px;
+    margin-left: 800px;
+    margin-right:  800px;
+    padding: 70px;
+}
+
+#show {
+    margin: 70px;
+}
+
+/*하위*/
+
+#record {
+    flex-grow: 2;
+
+    height: 1300px;
+    overflow-y: auto;
+    background-color: #F1F8E9;
+    border-color: #4CAF50;
+    border-style: solid;
+    border-radius: 40px;
+    border-width: 20px;
+    margin-right: 20px;
+}
+
+.label_title {
+    width: 20%;
+}
+
+#title {
+    height: 100px;
+    width: 80%;   
+}
+
+#input {
+    flex-grow: 1;
+    background-color: #F1F8E9;
+    border-color: #4CAF50;
+    border-style: solid;
+    border-radius: 40px;
+    border-width: 20px;
+}
+
+/*최하위*/
+
+#input_2 {
+    margin: 20px;
+}
+
+.record_element {
+    background-color: wheat;
+    border-radius: 20px;
+}

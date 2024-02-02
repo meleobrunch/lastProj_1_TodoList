@@ -1,0 +1,34 @@
+#todoList {
+    --head: 100px;
+    --content_1: 80px;
+    --content_2: 50px;
+    --content_3: 30px;
+
+}
+
+button {
+    font-size: var(--content_2);
+}
+
+textarea {
+    font-size:  var(--content_2);
+}
+
+
+#list {
+    font-size: var(--head);
+}
+.label_title {
+    font-size: var(--content_2);
+}
+#title {
+    font-size: var(--content_2);
+}
+
+#input {
+    font-size: var(--content_2);
+}
+
+.record_element {
+    font-size: var(--content_1);
+}

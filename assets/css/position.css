@@ -1,0 +1,25 @@
+#todoList {
+    position: relative;
+    top: 200px;
+    left: 200px;
+}
+
+#list {
+    text-align: center;
+}
+
+#record {
+    margin-bottom: 20px;
+}
+
+#remove {
+    float: right; 
+    margin-right: 80px; 
+    margin-top: 20px;
+}
+
+.record_element {
+    position: relative;
+    top: 200px;
+    margin: 20px;
+}              
